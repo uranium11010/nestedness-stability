@@ -1,5 +1,18 @@
 # Nestedness and stability in a MaxEnt energy flow model
 
+This is one of two repositories associated with the paper
+"Nestedness Promotes Stability in Maximum-Entropy Bipartite Food Webs" by Li and Harte, 2023.
+The other repository is located [https://github.com/uranium11010/network-flow-model](here).
+
+If you use our code in your work, please cite our paper:
+```
+@article{li2023nestedness,
+  title={Nestedness Promotes Stability in Maximum-Entropy Bipartite Food Webs},
+  author={Li, Zhening and Harte, John},
+  year={2023}
+}
+```
+
 ## Dependencies
 
 Code is implemented in Python 3. Dependencies are installed with the following command:
@@ -9,6 +22,9 @@ pip install numpy scipy pandas plotly tqdm statsmodels kaleido
 Installation should take about a minute.
 
 ## Example usage
+
+Code in this repository is used to analyze the relationship between the nestedness of a bipartite food web and stability of the ecological community
+for various combinations of number of resources ($S_R$) and number of consumers ($S_C$).
 
 Single $(S_R, S_C)$ pair: (takes about a minute to run)
 ```shell
